@@ -223,9 +223,9 @@
       ]
     }
   ],
-  "url": "https://github.com/RedPandaSweg/tov-feuerschwinge",
-  "manifest": "https://raw.githubusercontent.com/RedPandaSweg/tov-feuerschwinge/main/module.json",
-  "download": "https://raw.githubusercontent.com/RedPandaSweg/tov-feuerschwinge/main/module.zip",
+  "url": "https://github.com/RedPandaSweg/tov-feuerschwinge-kompendium",
+  "manifest": "https://raw.githubusercontent.com/RedPandaSweg/tov-feuerschwinge-kompendium/main/module.json",
+  "download": "https://raw.githubusercontent.com/RedPandaSweg/tov-feuerschwinge-kompendium/main/module.zip",
   "relationships": {
     "systems": [
       {
