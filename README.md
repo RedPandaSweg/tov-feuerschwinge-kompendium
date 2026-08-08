@@ -6,7 +6,7 @@ Funktionalität befindet sich im separaten Modul `tov-feuerschwinge-tools`.
 Installation in Foundry VTT über diesen Manifestlink:
 
 ```text
-https://raw.githubusercontent.com/RedPandaSweg/tov-feuerschwinge/main/module.json
+https://raw.githubusercontent.com/RedPandaSweg/tov-feuerschwinge-kompendium/main/module.json
 ```
 
 Kreaturen-JSON für den Creature Builder kann mit dem
