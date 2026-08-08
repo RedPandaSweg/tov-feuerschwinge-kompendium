@@ -1,0 +1,240 @@
+{
+  "id": "tov-feuerschwinge",
+  "title": "Feuerschwinge – Kompendium",
+  "description": "Kampagnenspezifische Kompendien für Tales of the Valiant: Feuerschwinge.",
+  "version": "3.0.0",
+  "compatibility": {
+    "minimum": "13.348",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "RedPandaSweg"
+    }
+  ],
+  "packs": [
+    {
+      "name": "monsters",
+      "label": "Monster",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "black-flag"
+    },
+    {
+      "name": "scenes",
+      "label": "Szenen",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "black-flag"
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds (Feuerschwinge)",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "black-flag",
+      "flags": {
+        "black-flag": {
+          "types": [
+            "background",
+            "container",
+            "gear",
+            "sundry",
+            "tool"
+          ]
+        }
+      }
+    },
+    {
+      "name": "items",
+      "label": "Ausrüstung & magische Gegenstände",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "black-flag"
+    },
+    {
+      "name": "spells",
+      "label": "Zaubersprüche",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "black-flag",
+      "flags": {
+        "black-flag": {
+          "types": [
+            "spell"
+          ]
+        }
+      }
+    },
+    {
+      "name": "lineages",
+      "label": "Lineages (Feuerschwinge)",
+      "path": "packs/lineages",
+      "type": "Item",
+      "system": "black-flag",
+      "flags": {
+        "black-flag": {
+          "types": [
+            "lineage",
+            "feature"
+          ]
+        }
+      }
+    },
+    {
+      "name": "heritages",
+      "label": "Heritages (Feuerschwinge)",
+      "path": "packs/heritages",
+      "type": "Item",
+      "system": "black-flag",
+      "flags": {
+        "black-flag": {
+          "types": [
+            "heritage",
+            "feature"
+          ]
+        }
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Klassen",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "black-flag",
+      "flags": {
+        "black-flag": {
+          "types": [
+            "class",
+            "feature",
+            "gear"
+          ]
+        }
+      }
+    },
+    {
+      "name": "subclasses",
+      "label": "Subklassen",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "black-flag",
+      "flags": {
+        "black-flag": {
+          "types": [
+            "subclass",
+            "feature",
+            "weapon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Makros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "black-flag"
+    },
+    {
+      "name": "players-guide",
+      "label": "Spielerhandbuch",
+      "path": "packs/players-guide",
+      "type": "JournalEntry",
+      "system": "black-flag"
+    },
+    {
+      "name": "rules",
+      "label": "Regeln",
+      "path": "packs/rules",
+      "type": "JournalEntry",
+      "system": "black-flag"
+    },
+    {
+      "name": "talents",
+      "label": "Talente",
+      "path": "packs/talents",
+      "type": "Item",
+      "system": "black-flag",
+      "flags": {
+        "black-flag": {
+          "types": [
+            "talent",
+            "feature"
+          ]
+        }
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "ToV Feuerschwinge",
+      "sorting": "m",
+      "color": "#b33a2b",
+      "packs": [],
+      "folders": [
+        {
+          "name": "01 – Ausrüstung & Zauber",
+          "sorting": "m",
+          "color": "#66539a",
+          "packs": [
+            "items",
+            "spells"
+          ]
+        },
+        {
+          "name": "02 – Charakteroptionen",
+          "sorting": "m",
+          "color": "#477a48",
+          "packs": [
+            "lineages",
+            "heritages",
+            "backgrounds",
+            "classes",
+            "subclasses",
+            "talents"
+          ]
+        },
+        {
+          "name": "03 – Spielleitung",
+          "sorting": "m",
+          "color": "#9a513d",
+          "packs": [
+            "monsters",
+            "scenes"
+          ]
+        },
+        {
+          "name": "04 – Nachschlagewerke",
+          "sorting": "m",
+          "color": "#3f6d8c",
+          "packs": [
+            "players-guide",
+            "rules"
+          ]
+        },
+        {
+          "name": "05 – Werkzeuge",
+          "sorting": "m",
+          "color": "#777777",
+          "packs": [
+            "macros"
+          ]
+        }
+      ]
+    }
+  ],
+  "url": "https://github.com/RedPandaSweg/tov-feuerschwinge",
+  "manifest": "https://raw.githubusercontent.com/RedPandaSweg/tov-feuerschwinge/main/module.json",
+  "download": "https://raw.githubusercontent.com/RedPandaSweg/tov-feuerschwinge/main/module.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "black-flag",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.074"
+        }
+      }
+    ]
+  }
+}
