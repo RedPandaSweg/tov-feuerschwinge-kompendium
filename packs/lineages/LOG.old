@@ -1,3 +1,6 @@
-2026/08/12-09:03:05.789 78e4 Recovering log #722
-2026/08/12-09:03:05.802 78e4 Delete type=0 #722
-2026/08/12-09:03:05.808 78e4 Delete type=3 #721
+2026/09/02-17:05:49.436 6afc Recovering log #834
+2026/09/02-17:05:49.443 6afc Level-0 table #836: started
+2026/09/02-17:05:49.512 6afc Level-0 table #836: 1332947 bytes OK
+2026/09/02-17:05:49.527 6afc Delete type=0 #834
+2026/09/02-17:05:49.527 6afc Delete type=3 #833
+2026/09/02-18:50:14.547 ea8 Moved #836 to level-1 1332947 bytes OK: files[ 0 1 1 0 0 0 0 ]

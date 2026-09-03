@@ -1,3 +1,5 @@
-2026/08/12-09:03:05.879 6fac Recovering log #562
-2026/08/12-09:03:05.886 6fac Delete type=0 #562
-2026/08/12-09:03:05.886 6fac Delete type=3 #561
+2026/09/02-17:05:50.158 6afc Recovering log #674
+2026/09/02-17:05:50.159 6afc Level-0 table #677: started
+2026/09/02-17:05:50.173 6afc Level-0 table #677: 385328 bytes OK
+2026/09/02-17:05:50.186 6afc Delete type=0 #674
+2026/09/02-17:05:50.186 6afc Delete type=3 #673

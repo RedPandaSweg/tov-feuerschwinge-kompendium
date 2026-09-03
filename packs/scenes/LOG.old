@@ -1,3 +1,5 @@
-2026/08/12-09:03:05.706 78e4 Recovering log #193
-2026/08/12-09:03:05.733 78e4 Delete type=0 #193
-2026/08/12-09:03:05.734 78e4 Delete type=3 #192
+2026/09/02-17:05:48.968 6afc Recovering log #304
+2026/09/02-17:05:48.977 6afc Level-0 table #306: started
+2026/09/02-17:05:48.993 6afc Level-0 table #306: 444442 bytes OK
+2026/09/02-17:05:49.006 6afc Delete type=0 #304
+2026/09/02-17:05:49.006 6afc Delete type=3 #303
