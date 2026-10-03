@@ -2,7 +2,7 @@
   "id": "tov-feuerschwinge",
   "title": "Feuerschwinge – Kompendium",
   "description": "Kampagnenspezifische Kompendien für Tales of the Valiant: Feuerschwinge.",
-  "version": "3.0.3",
+  "version": "3.1.0",
   "compatibility": {
     "minimum": "13.348",
     "verified": "14"
@@ -51,6 +51,27 @@
       "path": "packs/items",
       "type": "Item",
       "system": "black-flag"
+    },
+    {
+      "name": "dnd-items",
+      "label": "DnD Items",
+      "path": "packs/dnd-items",
+      "type": "Item",
+      "system": "black-flag"
+    },
+    {
+      "name": "dnd-spells",
+      "label": "DnD Spells",
+      "path": "packs/dnd-spells",
+      "type": "Item",
+      "system": "black-flag",
+      "flags": {
+        "black-flag": {
+          "types": [
+            "spell"
+          ]
+        }
+      }
     },
     {
       "name": "spells",
@@ -178,7 +199,9 @@
           "color": "#66539a",
           "packs": [
             "items",
-            "spells"
+            "spells",
+            "dnd-items",
+            "dnd-spells"
           ]
         },
         {

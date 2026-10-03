@@ -18,5 +18,8 @@ Thumbs.db
 *.swp
 *.tmp
 
+# Unfreie Bilder
+/assets/imported
+
 # module.zip bleibt absichtlich versioniert: Das Foundry-Manifest lädt sie direkt.
 # packs/ bleibt absichtlich versioniert: Es ist der eigentliche Kompendiumsinhalt.
