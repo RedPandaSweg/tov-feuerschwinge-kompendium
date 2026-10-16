@@ -10,7 +10,7 @@ if exist "module.zip" (
 )
 
 powershell.exe -NoProfile -ExecutionPolicy Bypass -Command ^
-    "Compress-Archive -Path 'assets','development','packs','module.json' -DestinationPath 'module.zip' -CompressionLevel Optimal"
+    "Compress-Archive -Path 'assets','packs','module.json' -DestinationPath 'module.zip' -CompressionLevel Optimal"
 
 if errorlevel 1 (
     echo.

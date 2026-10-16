@@ -1,3 +1,5 @@
-2026/10/04-15:04:44.273 66ec Recovering log #30
-2026/10/04-15:04:44.399 66ec Delete type=0 #30
-2026/10/04-15:04:44.399 66ec Delete type=3 #29
+2026/10/16-12:10:00.830 33fc Recovering log #54
+2026/10/16-12:10:00.830 33fc Level-0 table #56: started
+2026/10/16-12:10:00.840 33fc Level-0 table #56: 13602 bytes OK
+2026/10/16-12:10:00.852 33fc Delete type=0 #54
+2026/10/16-12:10:00.852 33fc Delete type=3 #53
